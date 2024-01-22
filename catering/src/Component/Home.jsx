@@ -3,7 +3,7 @@ import Banner from './Banner'
 
 function Home() {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Banner/>
     </div>
   )

@@ -3,3 +3,28 @@
     background-color: aqua;
 
 }
+.bannerimg{
+    background-image: url(../image/1000154754.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.card-h{
+    height: 200px;
+    border-radius: 10px;
+    
+    
+}
+.card-shadow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.img-r{
+    border-radius: 100px 50px 20px 0px;
+
+}
+.img-l{
+    border-radius:  50px 100px 20px 0px;
+    
+}
+
