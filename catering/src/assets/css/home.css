@@ -1,30 +1,127 @@
-.navhover:hover{
-    color: yellow;
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,200;0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+#name-nav:hover {
+  color: #fd562a;
+  background-color: yellow;
+  border-radius: 10px;
+}
+.herobanner{
+    margin-top: 80px;
+}
+.headlogo{
+    font-family: 'Rubik Burned', system-ui;
+    font-weight: bold;
+}
+.heading1{
+    font-family: 'Lora', serif;
+}
+.heading2{
+    font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+}
+.heading3{
+    font-family: 'Bitter', serif;
+}
+.heading4{
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+}
+.heading5{
+    font-family: 'Merriweather', serif;
+}
+.navbar {
+  font-family: "Rubik Burned", system-ui;
+}
+.bannerimg {
+  background-image: url(../image/1000154754.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
 
+.card-h {
+  height: 200px;
+  border-radius: 10px;
 }
-.bannerimg{
-    background-image: url(../image/1000154754.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
+.card-shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.card-h{
-    height: 200px;
-    border-radius: 10px;
-    
-    
+.img-r {
+  border-radius: 100px 50px 20px 0px;
 }
-.card-shadow{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.img-l {
+  border-radius: 50px 100px 20px 0px;
 }
-.img-r{
-    border-radius: 100px 50px 20px 0px;
+.heading1 {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  line-height: 2;
+  font-size: 16;
+  word-spacing: 8px;
+}
 
+
+.footerbg {
+  background-image: url(../image/footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
 }
-.img-l{
-    border-radius:  50px 100px 20px 0px;
-    
+.footerdiv {
+  background-color: rgba(0, 0, 0, 0.646);
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.navhover:hover {
+  color: yellow;
+  background-color: aqua;
+}
+
+.circle {
+  padding: 30px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.center-image {
+  display: block;
+  margin: auto;
+}
+.card {
+  padding: 30px;
+  height: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  width: 50px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.card h5 {
+  text-align: center;
+}
+
+#cate-card:hover {
+  background: linear-gradient(145deg, #f9f9f9, #99ecff);
+
+  transition: transform 0.3s, box-shadow 0.3s;
+  transform: scale(1.2);
 }
 
