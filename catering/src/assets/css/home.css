@@ -125,3 +125,30 @@ img {
   transform: scale(1.2);
 }
 
+
+/* Menu.css */
+.zoom-effect {
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px; /* Adjust the border-radius as needed */
+}
+
+.zoom-effect img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-effect:hover img {
+  transform: scale(1.1);
+  outline: 5px solid orange; /* Adjust the outline color as needed */
+}
+.herobg{
+  height: 80vh;
+  background-image: url(../image/hero\ bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
