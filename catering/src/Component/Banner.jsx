@@ -120,7 +120,7 @@ function Banner() {
         </nav>
       </section>
       <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
-        <Link to="https://axesstechnology.org/contact" className='buy-now-bt'>BuyNow</Link>
+        <Link to="https://axesstechnology.in/contact" target="_blank" className='buy-now-bt'>BuyNow</Link>
       </div>
       {/* Herobanner */}
       <section>
