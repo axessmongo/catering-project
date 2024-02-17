@@ -152,3 +152,11 @@ img {
   align-items: center;
   color: white;
 }
+a{
+  color: rgba(252, 239, 3, 0.557);
+  padding: 50px;
+}
+a:hover{
+  color:  rgb(252, 239, 3);
+}
+

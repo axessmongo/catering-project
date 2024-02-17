@@ -10,8 +10,10 @@ import fast from '../assets/image/fast.jpg'
 export default function Menu() {
   return (
     <div>
-        <div className='herobg'>
+      
+        <div className='herobg '>
         <h1 className='display-1 fw-bold'>MENU</h1>
+        <a  className='fs-3 fw-bold' href="/">Home</a>
         </div>
     <section className='container'>
       <h5 className='text-center pt-5'>Menu</h5>

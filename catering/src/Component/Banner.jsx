@@ -24,7 +24,7 @@ import kitty from "../assets/image/kitty.svg";
 
 function Banner() {
   return (
-    <div>
+    <div className="overflow-hidden" >
       {/* Navbar */}
       <section className="nav-banner">
         <nav
@@ -461,7 +461,7 @@ function Banner() {
             </div>
             <div className="col-md-4 d-flex justify-content-center align-items-center">
               <div className="text-center">
-                <h4 className="text-warning">Contact as</h4>
+                <h4 className="text-warning">Contact Us</h4>
                 <div className=" pt-4">
                   <p>
                     {" "}
@@ -484,7 +484,7 @@ function Banner() {
             </div>
           </div>
           <h5 className="text-center pb-2 text-warning">
-            right TimeZone © 2021. All rights reserved
+          © right Catering  2021. All rights reserved
           </h5>
         </div>
       </footer>
