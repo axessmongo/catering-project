@@ -53,7 +53,7 @@ function Banner() {
                     class="nav-link active px-3"
                     aria-current="page"
                     id="name-nav"
-                    href="#home"
+                    href="/"
                   >
                     Home
                   </a>
@@ -484,7 +484,7 @@ function Banner() {
             </div>
           </div>
           <h5 className="text-center pb-2 text-warning">
-          © right Catering  2021. All rights reserved
+          Copyright © All rights reserved 2024 Catering. 
           </h5>
         </div>
       </footer>
