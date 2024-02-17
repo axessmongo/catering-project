@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import food from "../assets/image/food.webp";
 import industrial from "../assets/image/industrial-catring-services.webp";
 import corporate from "../assets/image/corporate-catering-services.webp";
@@ -24,6 +25,7 @@ import kitty from "../assets/image/kitty.svg";
 
 function Banner() {
   return (
+
     <div className="overflow-hidden" >
       {/* Navbar */}
       <section className="nav-banner">
@@ -118,6 +120,9 @@ function Banner() {
           </div>
         </nav>
       </section>
+      <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+        <Link to="https://axesstechnology.in/contact" target="_blank" className='buy-now-bt'>BuyNow</Link>
+      </div>
       {/* Herobanner */}
       <section>
         <div className="bannerimg herobanner" id="home">
