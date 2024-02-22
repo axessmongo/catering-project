@@ -8,6 +8,7 @@ import "aos/dist/aos.css"; // Import AOS CSS
 import AOS from "aos";
 import Menu from "./Component/Menu";
 import Banner from "./Component/Banner";
+import Gallery from "./Component/Gallery";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
           <Route>
             <Route path="/" element={<Banner />} />
             <Route path="/menu" element={<Menu />} />
+            <Route path="/gallery" element={<Gallery/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

@@ -10,55 +10,55 @@ import fast from '../assets/image/fast.jpg'
 export default function Menu() {
   return (
     <div>
-      
-        <div className='herobg '>
+
+      <div className='herobg '>
         <h1 className='display-1 fw-bold'>MENU</h1>
-        <a  className='fs-3 fw-bold' href="/">Home</a>
-        </div>
-    <section className='container'>
-      <h5 className='text-center pt-5'>Menu</h5>
-      <div className='row pt-5'>
-      <div className='col-md-4'>
-          <div className='zoom-effect'>
-            <img src={mutton} alt="" />
-            <h5 className='text-center pt-3'>Non-veg</h5>
-          </div>
-        </div>
-        <div className='col-md-4'>
-          <div className='zoom-effect'>
-            <img src={lunch} alt="" />
-            <h5 className='text-center pt-3'>Lunch</h5>
-          </div>
-        </div>
-       
-        <div className='col-md-4'>
-          <div className='zoom-effect'>
-            <img src={dinner} alt="" />
-            <h5 className='text-center pt-3'>Dinner</h5>
-          </div>
-        </div>
+        <a className='fs-3 fw-bold' href="/">Home</a>
       </div>
-      <div className='row pt-5'>
-        <div className='col-md-4'>
-          <div className='zoom-effect'>
-            <img src={fast} alt="" />
-            <h5 className='text-center pt-3'>Breakfast</h5>
+      <section className='container'>
+        <h5 className='text-center pt-5'>Menu</h5>
+        <div className='row pt-5'>
+          <div className='col-md-4'>
+            <div className='zoom-effect'>
+              <img src={mutton} alt="" />
+              <h5 className='text-center pt-3'>Non-veg</h5>
+            </div>
+          </div>
+          <div className='col-md-4'>
+            <div className='zoom-effect'>
+              <img src={lunch} alt="" />
+              <h5 className='text-center pt-3'>Lunch</h5>
+            </div>
+          </div>
+
+          <div className='col-md-4'>
+            <div className='zoom-effect'>
+              <img src={dinner} alt="" />
+              <h5 className='text-center pt-3'>Dinner</h5>
+            </div>
           </div>
         </div>
-        <div className='col-md-4'>
-          <div className='zoom-effect'>
-            <img src={samosa} alt="" />
-            <h5 className='text-center pt-3'>Evening Snacks</h5>
+        <div className='row pt-5'>
+          <div className='col-md-4'>
+            <div className='zoom-effect'>
+              <img src={fast} alt="" />
+              <h5 className='text-center pt-3'>Breakfast</h5>
+            </div>
+          </div>
+          <div className='col-md-4'>
+            <div className='zoom-effect'>
+              <img src={samosa} alt="" />
+              <h5 className='text-center pt-3'>Evening Snacks</h5>
+            </div>
+          </div>
+          <div className='col-md-4'>
+            <div className='zoom-effect'>
+              <img src={chai} alt="" />
+              <h5 className='text-center pt-3'>Chai</h5>
+            </div>
           </div>
         </div>
-        <div className='col-md-4'>
-          <div className='zoom-effect'>
-            <img src={chai} alt="" />
-            <h5 className='text-center pt-3'>Chai</h5>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
     </div>
   );
 }

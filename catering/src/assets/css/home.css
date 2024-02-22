@@ -179,6 +179,14 @@ a:hover{
 .buy-now:hover{
   transform: scale(1.1);
 }
+.gallery-banner{
+  background-image: url(../image/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
 
   
 @keyframes blink{

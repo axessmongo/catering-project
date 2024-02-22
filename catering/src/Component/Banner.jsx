@@ -99,7 +99,7 @@ function Banner() {
                     class="nav-link active px-3"
                     aria-current="page"
                     id="name-nav"
-                    href="#gallery"
+                    href="gallery"
                   >
                     Gallery{" "}
                   </a>
